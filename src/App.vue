@@ -138,11 +138,11 @@ export default {
     const slide = ref(1);
     const autoplay = ref(true);
     const products = ref([
-      { id: 1, name: 'BS Wear', price: 'Rp 90.000.000', image: '/src/images/brand1.png' },
-      { id: 2, name: 'CnK Wear', price: 'Rp 80.000.000', image: '/src/images/brand2.png' },
-      { id: 2, name: 'BW Shirt', price: 'Rp 54.500.000', image: '/src/images/brand3.png' },
-      { id: 2, name: 'PM Sweater', price: 'Rp 87.500.000', image: '/src/images/brand4.png' },
-      { id: 3, name: 'LW Sweater', price: 'Rp 39.000.000', image: '/src/images/brand5.png' }
+      { id: 1, name: 'BS Wear', price: 'Rp 90.000.000', image: '/images/brand1.png' },
+      { id: 2, name: 'CnK Wear', price: 'Rp 80.000.000', image: '/images/brand2.png' },
+      { id: 2, name: 'BW Shirt', price: 'Rp 54.500.000', image: '/images/brand3.png' },
+      { id: 2, name: 'PM Sweater', price: 'Rp 87.500.000', image: '/images/brand4.png' },
+      { id: 3, name: 'LW Sweater', price: 'Rp 39.000.000', image: '/images/brand5.png' }
     ]);
 
     const form = ref({
